@@ -1,0 +1,12 @@
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.weekday {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 12px;
+}

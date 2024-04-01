@@ -1,0 +1,13 @@
+.main-box {
+  height: 270px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  justify-content: center;
+  user-select: none;
+  box-shadow: 1px 8px 12px 4px rgba(0, 0, 0, 0.16);
+  display: flex;
+  min-width: 275px;
+}

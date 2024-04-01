@@ -1,0 +1,14 @@
+.years {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.year {
+  cursor: pointer;
+  padding: 30px 7px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  background: none;
+}

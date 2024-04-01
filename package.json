@@ -1,0 +1,60 @@
+{
+  "name": "react-date-time-picker-tz",
+  "version": "1.0.0",
+  "description": "React component library for handling date, time, and dateTime pickers with zone handling and customizable formats.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "build:tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjayradadiya/react-date-time-picker.git"
+  },
+  "author": "Sanjay Radadiya",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "picker",
+    "date-picker",
+    "time-picker",
+    "datetime-picker",
+    "date",
+    "time",
+    "date-time",
+    "dateTime",
+    "zone",
+    "customizable",
+    "format",
+    "tz"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "luxon": "^3.4.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/luxon": "^3.3.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  }
+}
