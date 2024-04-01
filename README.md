@@ -27,13 +27,13 @@ yarn add react-date-time-picker-tz
 Import InputPicker from `react-date-time-picker-tz`;
 
 ```javascript
-import { ReactDateTimePickers, TimePicker } from "react-date-time-picker-tz";
+import { ReactDateTimePicker, TimePicker } from "react-date-time-picker-tz";
 ```
 
-Add `ReactDateTimePickers` like this:
+Add `ReactDateTimePicker` like this:
 
 ```javascript
-<ReactDateTimePickers
+<ReactDateTimePicker
   type="date"
   value={selectedDate}
   onChange={(newValue) => {

@@ -6,7 +6,7 @@ import DatePicker from "./components/Date/DatePicker";
 import DateTimePicker from "./components/DateTime/DateTimePicker";
 import { Clock, Calendar } from "../icons";
 
-const ReactDateTimePickers: FC<ReactDateTimePickerProps> = ({
+const ReactDateTimePicker: FC<ReactDateTimePickerProps> = ({
   value,
   onChange,
   format,
@@ -64,4 +64,4 @@ const ReactDateTimePickers: FC<ReactDateTimePickerProps> = ({
   );
 };
 
-export default ReactDateTimePickers;
+export default ReactDateTimePicker;
