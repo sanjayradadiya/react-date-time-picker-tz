@@ -16,3 +16,5 @@ CVS
 .DS_Store
 npm-debug.log
 .npmrc
+/.github
+
