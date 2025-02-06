@@ -1,6 +1,6 @@
 {
   "name": "react-date-time-picker-tz",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React component library for handling date, time, and dateTime pickers with zone handling and customizable formats.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
